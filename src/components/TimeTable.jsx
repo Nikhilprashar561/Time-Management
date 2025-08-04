@@ -9,18 +9,25 @@ const TimeTable = () => {
   //   setData(val)
   // }
 
+  const handleChange = (e)=> {
+    console.log(e.target.value)
+  }
+
   return (
-    <div className="text-white flex py-4 items-center justify-center">
-      <div className="bg-[#262626] flex py-2 px-2">
+    <div className="text-white flex py-4 px-4 items-center justify-around">
+      <div className="flex items-center h-8 w-52 text-sm border border-white rounded">
         <input
+          className="outline-none px-2 text-white bg-transparent h-full w-full"
           type="text"
-          className="bg-transparent mx-1 py-1 rounded-lg px-2 font-semibold outline-none border border-[#000]"
-          placeholder="Subject"
+          placeholder="Task.."
         />
+      </div>
+      <div className="">
         <input
-          type="text"
-          className="bg-transparent py-1 rounded-lg px-2 font-semibold outline-none border border-[#000]"
-          placeholder="Subject"
+          id="checkIn"
+          type="date"
+          onChange={handleChange}
+          className=" rounded border bg-[#fff] text-black border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
         />
       </div>
     </div>
