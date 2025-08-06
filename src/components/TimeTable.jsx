@@ -133,7 +133,7 @@ const TimeTable = () => {
     </button>
     <div>
       <div className="p-6 bg-black rounded-xl shadow-lg overflow-x-auto">
-      <table className="w-full border-collapse text-white text-sm">
+      <table className="w-[75%] justify-self-center border-collapse text-white text-sm">
         <thead>
           <tr>
             <th className="border border-gray-600 px-2 py-2 text-center">Subject</th>
