@@ -19,3 +19,7 @@ Know we implement the core logic how our app was react ⌛
 ```
 3. Then we are make a user Profile Page Where User can watch there recent activity and Tasks
 ``
+
+```
+4. Let's Now Start Building this Project
+```
