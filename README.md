@@ -23,3 +23,7 @@ Know we implement the core logic how our app was react ⌛
 ```
 4. Let's Now Start Building this Project
 ```
+
+```
+5. Today Only Prepare For interviews and Make A Plan How we Execute things
+```
